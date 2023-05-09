@@ -1,13 +1,15 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
+import './nav.scss'
 
 const Nav = () => {
   return (
     <section className="nav">
-      <a href="">HOME</a>
-      <a href="">ABOUT</a>
-      <a href="">SHOP</a>
-      <a href="">VIDEOS</a>
-      <a href="">CONTACT</a>
+      <Link to="/">HOME</Link>
+      <Link to="/about">ABOUT</Link>
+      <Link to='/shop'>SHOP</Link>
+      <Link to='/videos'>VIDEOS</Link>
+      <Link to='/contact'>CONTACT</Link>
     </section>
   );
 }
