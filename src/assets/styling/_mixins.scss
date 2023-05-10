@@ -1,0 +1,15 @@
+@import './variables';
+
+@mixin displayRow {
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin displayCol {
+    display:flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    align-items: start;
+}
