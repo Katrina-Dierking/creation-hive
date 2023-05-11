@@ -1,6 +1,6 @@
 
 import './App.css';
-import { BrowserRouter, Routes, Route} from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import About from './views/about/About';
 import Home from './views/home/Home';
 import Shop from './views/shop/Shop';
@@ -11,6 +11,7 @@ import Tumblers from './views/shop/shopViews/Tumblers';
 import Vinyls from './views/shop/shopViews/Vinyls';
 import Pens from './views/shop/shopViews/Pens';
 import LoveMugs from './views/shop/shopViews/LoveMugs';
+import Cart from './views/shop/shopComponents/Cart';
 
 function App() {
   return (
@@ -27,7 +28,10 @@ function App() {
             <Route path="/vinyls" element={<Vinyls/>} />
             <Route path="/pens" element={<Pens/>} />
             <Route path="/lovemugs" element={<LoveMugs/>} />
+            <Route path="/cart" element={<Cart/>} />
           </Routes>
+     
+      
         </BrowserRouter>
     </div>
   );
