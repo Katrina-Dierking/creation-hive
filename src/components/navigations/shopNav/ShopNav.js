@@ -1,16 +1,17 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import "./shopNav.scss"
+import "../../../views/shop/shop.scss"
 
 const ShopNav = () => {
   return (
+
     <section className="shopnav">
-        <Link to="/">HOME</Link>
-        <Link to="/sweetshop">SWEET SHOP</Link>
-        <Link to="/tumblers">TUMBLERS</Link>
-        <Link to="/vinyls">VINYLS</Link>
-        <Link to="/pens">PENS</Link>
-        <Link to="/lovemugs">LOVE MUGS</Link>
+        <Link to="/">home</Link>
+        <Link to="/sweetshop">sweet shop</Link>
+        <Link to="/tumblers">tumblers</Link>
+        <Link to="/vinyls">vinyls</Link>
+        <Link to="/pens">pens</Link>
+        <Link to="/lovemugs">love mugs</Link>
     </section>
   );
 }

@@ -1,5 +1,5 @@
-@import "../../../assets/styling/mixins";
-@import "../../../assets/styling/variables";
+@import "../../assets/styling/mixins";
+@import "../../assets/styling/variables";
 
 .shopnav {
     width:80%;
@@ -29,3 +29,13 @@
     }
 }
 
+
+
+.shop {
+    padding-top: 1%;
+}
+
+.shop main {
+    width: 75%;
+    margin:0 auto;
+}
