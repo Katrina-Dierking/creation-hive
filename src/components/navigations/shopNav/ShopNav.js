@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import "../../../views/shop/shop.scss"
+import '../../../views/shop/shopViews/shop.scss'
 
 const ShopNav = () => {
   return (
