@@ -1,14 +1,14 @@
-.footer {
-   background-color:black;
-   color:white;
+@import '../../assets/styling/mixins';
+@import '../../assets/styling/variables';
+
+footer {
+   @include displayRow();
+   @include mainFont();
+   background-color:$primary;
+   color:$body;
    height: 20vh;
-   display:flex;
-   flex-direction: row;
-   justify-content: space-evenly;
-   align-items: center;
    position:fixed;
    width: 100%;
    bottom:0;
-   font-family: 'Cormorant Garamond', serif;
    font-size: 18px;
 }

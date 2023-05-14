@@ -1,12 +1,12 @@
-.nav {
+@import '../../../assets/styling/mixins';
+@import '../../../assets/styling/variables';
+
+nav {
+    @include displayRow();
     height: 10vh;
-    display:flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
+    width:70%;
     padding: 1%;
-    background-color: whitesmoke;
-    border-bottom: 2px solid grey;
+    background-color: $body;
 
     a {
         text-decoration: none;
@@ -15,7 +15,6 @@
     }
 
     a:hover {
-       color:red;
-       text-decoration: underline;
+        @include linkHover();
     }
 }

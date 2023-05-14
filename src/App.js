@@ -1,17 +1,19 @@
 
-import './App.css';
+import './App.scss';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import About from './views/about/About';
-import Home from './views/home/Home';
-import ShopHome from './views/shop/shopViews/ShopHome';
-import Videos from './views/videos/Videos'
-import Contact from './views/contact/Contact'
-import SweetShop from './views/shop/shopViews/SweetShop';
-import Tumblers from './views/shop/shopViews/Tumblers';
-import Vinyls from './views/shop/shopViews/Vinyls';
-import Pens from './views/shop/shopViews/Pens';
-import LoveMugs from './views/shop/shopViews/LoveMugs';
-import Cart from './views/shop/shopComponents/cart/Cart';
+import {
+  Home,
+  About,
+  ShopHome, 
+  Videos, 
+  Contact, 
+  SweetShop, 
+  Tumblers, 
+  Vinyls, 
+  Pens, 
+  LoveMugs, 
+  Cart
+} from './views/index'
 
 function App() {
   return (

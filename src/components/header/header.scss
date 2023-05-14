@@ -1,0 +1,10 @@
+@import '../../assets/styling/mixins';
+@import '../../assets/styling/variables';
+
+header {
+    @include displayRow();
+    @include border();
+    width: 100%;
+    padding: 2rem 0; 
+    background-color: $body;
+}
