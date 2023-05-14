@@ -1,6 +1,5 @@
 import React from 'react'
-import Header from '../header/Header'
-import Footer from '../footer/Footer'
+import {Header, Footer} from '../index'
 import './layout.scss'
 
 const Layout = ({title, children}) => {
