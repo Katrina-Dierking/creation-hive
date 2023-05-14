@@ -15,8 +15,12 @@ const ShopNav = () => {
       </div>
 
       <div className="shopRight">
-        <Link to="/cart">Cart</Link>
         <Link to="/login">LOGIN</Link>
+        <Link to="/register">REGISTER</Link>
+        <Link t0="order-history"> MY ORDERS</Link>
+        <span className="cart">
+          <Link to="/cart">Cart</Link>
+        </span>
       </div>
     </section>
   );
