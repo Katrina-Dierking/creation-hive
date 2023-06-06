@@ -7,9 +7,10 @@ const logo = (
   <div className={styles.logo}>
     <Link to="/">
       <h2>
-        Queen Bean <span>Design Cafe</span>
+        Creation Hive
       </h2>
     </Link>
+    <h3>Queen Bean Design Cafe</h3>
   </div>
 );
 
